@@ -1,0 +1,82 @@
+:root {
+  --color-primary: #512051;
+  --color-secondary: #927B91;
+  --color-third: #EE69A4;
+  --color-four: #F7F2F7;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "League Spartan", sans-serif;
+}
+
+@media (max-width: 550px) {
+  .col-one {
+    flex-direction: column;
+  }
+}
+
+.presentation {
+  max-width: 45rem;
+}
+@media (max-width: 550px) {
+  .presentation {
+    text-align: center;
+  }
+}
+.presentation__title {
+  font-weight: 700;
+  color: var(--color-primary);
+  font-size: 5.6rem;
+  line-height: 4.8rem;
+  letter-spacing: -2px;
+  margin-bottom: 1.6rem;
+}
+.presentation__text {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.3rem;
+  color: var(--color-secondary);
+  margin-bottom: 7rem;
+}
+
+.evaluations .evalution {
+  margin-bottom: 1.6rem;
+  background-color: var(--color-four);
+  height: 5.6rem;
+  padding: 2rem 8rem 2rem 3.2rem;
+  border-radius: 0.8rem;
+}
+@media (max-width: 550px) {
+  .evaluations .evalution {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.evaluations .evalution__img {
+  height: 1.6rem;
+  margin-left: 0.8rem;
+}
+@media (max-width: 550px) {
+  .evaluations .evalution__img {
+    margin-bottom: 0.8rem;
+  }
+}
+.evaluations .evalution__title {
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin: 0;
+  color: var(--color-primary);
+  margin-left: 3.2rem;
+}
+
+.row-one {
+  margin-top: 11rem;
+}
+
+/*# sourceMappingURL=style.css.map */
