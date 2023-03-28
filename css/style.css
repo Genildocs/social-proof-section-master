@@ -159,6 +159,12 @@ body {
   }
 }
 
+.bk-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .row-one {
   margin-top: 11rem;
 }
