@@ -19,6 +19,12 @@ body {
   margin-bottom: 7rem;
 }
 
+@media (max-width: 990px) {
+  .col-3 {
+    width: 40%;
+    height: 50%;
+  }
+}
 @media (max-width: 550px) {
   .col-3 {
     width: 90%;
